@@ -4,7 +4,6 @@
   "description": "vanilla javascript Todolist",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack-dev-server --mode development",
     "build": "webpack --mode production"
   },
   "repository": {
