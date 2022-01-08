@@ -1,0 +1,28 @@
+{
+  "name": "vanillaTodo",
+  "version": "1.0.0",
+  "description": "vanilla javascript Todolist",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --mode development",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sonagi784/vanillaTodo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sonagi784/vanillaTodo/issues"
+  },
+  "homepage": "https://github.com/sonagi784/vanillaTodo#readme",
+  "devDependencies": {
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
