@@ -1,14 +1,12 @@
-# vanillaTodo
+# vanilla javascript Todolist
 
-## vanilla javascript Todolist
-
-#### npm, webpack으로 구조 하나하나 짜기
+### npm, webpack으로 구조 하나하나 짜기
 
 - webpack 기본구조
 - babel, polyfill, eslint
 - jest
 
-#### vanilla javascript로 todo-list 만들기
+### vanilla javascript로 todo-list 만들기
 
 - todolist 진행중/완료 필터링
 - todo 추가하기
@@ -22,6 +20,6 @@
 - 리스트 저장 로컬스토리지
 - 스타일 추가
 
-## 참고
+### 참고
 
 https://webpack.js.org/guides/getting-started/#basic-setup
