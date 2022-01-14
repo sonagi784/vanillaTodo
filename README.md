@@ -3,7 +3,7 @@
 ### npm, webpack으로 구조 하나하나 짜기
 
 - webpack 기본구조
-- babel, polyfill, eslint
+- babel, polyfill, eslint, prettier
 - jest
 
 ### vanilla javascript로 todo-list 만들기
