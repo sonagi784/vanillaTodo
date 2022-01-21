@@ -29,10 +29,6 @@ module.exports = {
           plugins: [],
         },
       },
-      {
-        test: /\.ts$/,
-        use: 'ts-loader',
-      },
     ],
   },
   plugins: [],
