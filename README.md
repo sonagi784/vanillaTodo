@@ -8,6 +8,7 @@
 
 ### vanilla javascript로 todo-list 만들기
 
+- functional component 구조
 - todolist 진행중/완료 필터링
 - todo 추가하기
 - todo 추가하기 완료 시 입력창 비우기
@@ -25,3 +26,5 @@
 https://webpack.kr/concepts/
 
 https://webpack.js.org/guides/getting-started/#basic-setup
+
+https://gomakethings.com/how-to-create-a-state-based-ui-component-with-vanilla-js/
