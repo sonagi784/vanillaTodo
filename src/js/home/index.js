@@ -1,9 +1,9 @@
 export default function home() {
-  const $element = document.createElement('div');
-  $element.className = 'home';
-  $element.innerHTML = 'this is home page!';
+  const $element = document.createElement("div")
+  $element.className = "home"
+  $element.innerHTML = "this is home page!"
 
   this.render = ($target) => {
-    $target.appendChild($element);
-  };
+    $target.appendChild($element)
+  }
 }
