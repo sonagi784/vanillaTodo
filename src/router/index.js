@@ -1,18 +1,24 @@
-import home from '@/js/home';
-import side from '@/js/side';
-import page404 from '@/js/page404';
+import home from '@/js/home'
+import side from '@/js/side'
+import page404 from '@/js/page404'
 
-const { pathname } = location;
+const pathname = location.pathname
 
-export const useRouter = (App) => {
-  let $page;
+export const useRouter = ($App) => {
+  let $page
   if (pathname === '/') {
-    $page = new home();
+    $page = home()
   } else if (pathname === '/side') {
-    $page = new side();
+    $page = side()
   } else {
-    $page = new page404();
+    $page = page404()
   }
 
-  $page.render(App);
-};
+  const render = () => {
+    $page.render($App)
+  }
+
+  return {
+    render,
+  }
+}
